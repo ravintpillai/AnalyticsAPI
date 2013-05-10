@@ -1,0 +1,12 @@
+import time
+import sys
+import io
+import segmentIds
+import dimensions_and_metrics
+import collectArguments
+import hello_analytics_api_v3_auth
+from apiclient.errors import HttpError
+from oauth2client.client import AccessTokenRefreshError
+
+service = hello_analytics_api_v3_auth.initialize_service()
+accounts = service.management().accounts().list().execute()

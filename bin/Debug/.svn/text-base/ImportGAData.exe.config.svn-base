@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<configuration>
+  <appSettings>
+    <!--
+    <add key="log4net.Internal.Debug" value="true"/>
+    -->
+    <add key="applicationName" value="Analytics Import"/>
+    <add key="userId" value="thehutgroup@gmail.com"/>
+    <add key="pwd" value="V4ulnFNwDJ"/>  
+    <add key="analyticsAPIUrl" value="https://www.googleapis.com/analytics/v2.4/data"/>
+    <add key="goBackDays" value="2"/>
+    <add key="requestPause" value="10000"/>
+  </appSettings>
+  <connectionStrings>
+    <add name="connectionAnalytics" connectionString="Server=localhost;Database=Analytics;Trusted_Connection=True"/>
+    <!--<add name="connectionAnalytics" connectionString="Server=sqlrpt1;Database=Analytics;Trusted_Connection=False;User Id=J_Google_Analytics;Password=cswTooA6ZC4EkfqaF0t1"/>-->
+  </connectionStrings>
+	<runtime>
+		<assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+			<dependentAssembly>
+				<assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30AD4FE6B2A6AEED" culture="neutral"/>
+				<bindingRedirect oldVersion="0.0.0.0-4.5.0.0" newVersion="4.5.0.0"/>
+			</dependentAssembly>
+		</assemblyBinding>
+	</runtime>
+</configuration>
+

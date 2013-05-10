@@ -1,0 +1,14 @@
+import M1
+import M2
+
+stats = M1.globalOutputList
+preStats = M2.globalOutputList
+
+print stats
+print preStats
+try:
+    print stats[0][1]
+    print "print stats[0][1]"
+except:
+    print stats[0][1][0]
+    print "print stats[0][1][0]"

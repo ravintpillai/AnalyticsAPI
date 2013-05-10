@@ -1,0 +1,5 @@
+def previousYear(date):
+    year = date[:4]
+    month = date[5:7]
+    day = date[8:10]
+    return year+'-'+month+'-'+day

@@ -1,0 +1,4 @@
+import time
+while True:
+    print "Ravin is thinking."
+    time.sleep(10)

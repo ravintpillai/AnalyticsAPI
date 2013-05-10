@@ -1,0 +1,6 @@
+C:\Users\clarkej\documents\visual studio 2010\Projects\ImportAdwordsData\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\clarkej\documents\visual studio 2010\Projects\ImportAdwordsData\bin\Debug\ImportAdwordsData.exe.config
+C:\Users\clarkej\documents\visual studio 2010\Projects\ImportAdwordsData\bin\Debug\ImportAdwordsData.exe
+C:\Users\clarkej\documents\visual studio 2010\Projects\ImportAdwordsData\bin\Debug\ImportAdwordsData.pdb
+C:\Users\clarkej\documents\visual studio 2010\Projects\ImportAdwordsData\obj\x86\Debug\ImportAdwordsData.exe
+C:\Users\clarkej\documents\visual studio 2010\Projects\ImportAdwordsData\obj\x86\Debug\ImportAdwordsData.pdb
